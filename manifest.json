@@ -1,6 +1,7 @@
 {
     "name": "DEM Raster Reprojection Processor",
     "container": "demreproject-processor",
+    "description": "Reproject the DEM raster",
     "pre_processing_stage": "python3 create_processor_yml.py",
     "execution_stage": "./main.sh",
     "post_processing_stage": "./transfer_shared_outputs.sh",
